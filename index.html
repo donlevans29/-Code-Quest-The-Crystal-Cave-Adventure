@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest: The Crystal Cave Adventure</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>🏰 Code Quest: The Crystal Cave Adventure</h1>
+            <p>Learn programming concepts through an epic journey!</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value" id="level">1</div>
+                <div>Level</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="crystals">0</div>
+                <div>Crystals Found</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="concepts">0</div>
+                <div>Concepts Learned</div>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+        </div>
+
+        <div class="game-board">
+            <div id="gameContent">
+                <!-- Level content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
